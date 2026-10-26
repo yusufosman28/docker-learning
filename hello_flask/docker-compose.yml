@@ -1,6 +1,6 @@
 services:
   web:
-    build: .
+    image: 525999897260.dkr.ecr.us-east-1.amazonaws.com/flask-mysql:latest
     ports:
       - "5003:5003"
     depends_on:
